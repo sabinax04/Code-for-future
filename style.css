@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+      
+}
+.about-info-container{
+padding: 60px;
+margin-left: 60px;
+}
+.course-name {
+    font-family: "Roboto Slab", serif;
+    font-size: 55px;
+    font-weight: 700;
+}
+.about-section{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    gap: 150px;
+    margin-bottom: 20px;
+}
+.text-about{
+    width: 51vw;
+}
+.text-about p{ 
+font-family: "Roboto";
+font-size: 25px;
+font-weight: 400;
+line-height: 36px;
+}
+.img-about-container{
+  display: flex;
+ align-items: center;
+}
+.img-about{
+    width: 21rem;
+    height: 20rem;
+}
+/* I sonu */
+.course-info{
+    display: grid;
+    grid-template-columns:1fr 3fr;
+    gap: 100px;
+}
+.info-boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.info-box{
+   width: 150px;
+    font-size: 18px;
+}
+
+.info-box h2{
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.info-box p{
+    font-family: "Roboto";
+     font-weight: 400;
+    font-size: 18px;
+  line-height: 23.4px;
+ margin-top: 0;
+}
+/* II sonu */
+.format{
+   margin-top: 130px;
+}
+.format-title{
+    font-family: "Roboto Slab", serif;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+.format-content{
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+}
+.format-item-title{
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 700;
+    color: #1E4681;
+   margin-bottom: 0;
+}
+.format-item-description{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    margin-top: 5px;
+}
+
+.format-item:nth-child(1){
+    width: 223px;
+}
+.format-item:nth-child(2){
+    width: 271px;
+}
+.format-item:nth-child(3){
+    width: 245px;
+}
+/* III sonu*/
+.learn{
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+.learn-list{
+    width: 50vw;
+    padding-left: 20px;
+}
+.learn-title{
+    font-family: "Roboto Slab", serif;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.learn-list li{
+    font-family: "Roboto", sans-serif;
+    font-size:24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+/* Tablet Gorunumu */
+
+
+@media (min-width: 992px) and (max-width: 1279px) {
+    body{
+        overflow-x:hidden ;
+       
+    }
+    .about-info-container{
+        padding:10px;
+        margin-left: 60px;
+        margin-right: 60px;
+        }
+        .about-section{
+                display: grid;
+                /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));  */
+                grid-template-columns: 2fr 1fr;
+        }
+        .course-name {
+            font-family: "Roboto Slab", serif;
+            font-size: 50px;
+            font-weight: 700;
+        }
+        .text-about{
+            width: 50vw;
+        }
+        .specific-p{
+            width: 51vw;
+        }
+        .text-about p{ 
+            font-family: "Roboto";
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 21px;
+            }
+            .img-about{
+               width: 21rem;
+               margin-right: 40px;
+            }
+
+            /* birinci hissenin sonu */
+
+
+            .course-info{
+                display: grid;
+                grid-template-columns:1fr 4fr;
+            }
+            .info-boxes{
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+            .info-box h2{
+               width: 136.88px;
+            }
+            .info-box:nth-child(odd) p{
+             width: 126.88px;
+            }
+            .info-box:nth-child(2) p{
+                width: 150px;
+               }
+            .info-box h2{
+                font-family: "Roboto";
+                font-size: 22px;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+            .info-box p{
+                font-family: "Roboto";
+                 font-weight: 400;
+                font-size: 15px;
+              line-height: 20px;
+            }
+            .imgage-info{
+                width:10% ;
+            }
+             /* ikinci hissenin sonu */
+
+ .format{
+   margin-top: 100px;
+}
+.format-title{
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+.format-item-title{
+    font-size: 22px;
+}
+.format-item-description{
+    font-size: 15px;
+}
+
+ .format-item:nth-child(1) p{
+     width: 190px;
+     margin-right: 5px;
+ }
+ .format-item:nth-child(2) p{
+     width: 230px;
+     margin-right: 5px;
+ }
+ .format-item:nth-child(3) p{
+     width: 200px;
+
+ }
+  /* ucuncu hissenin sonu */
+ .learn{
+    margin-bottom: 200px;
+    margin-top: 80px;
+}
+.learn-title{
+    font-family: "Roboto Slab", serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.learn-list{
+    width: 384px;
+    padding-left: 8px;
+}
+.learn-list li{
+    font-family: "Roboto", sans-serif;
+    font-size:15px;
+    font-weight: 400;
+    line-height: 21px;
+}
+}
+
+/* Telefon ucun */
+
+@media (min-width: 320px) and (max-width: 500px){
+  
+    .course-name {
+        font-size: 30px;
+
+    }
+    .about-info-container{
+        margin-left: 60px;
+        margin-right: 60px;
+        padding: 0;
+    
+        }
+        main{
+            width: 100%;
+        }
+    .about-section{
+     display: flex;
+     flex-direction: column;
+     gap: 0px;
+     width: 100%;
+    }
+    .text-about{
+        width: 100%;
+        margin: 0 5px;
+    }
+    .text-about p{ 
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        }
+        .img-about-container{
+            width: 80%;
+            display: flex;
+      justify-content: center;
+        }
+        .img-about{
+            width: 10rem;
+            height: 10rem;
+        }
+
+
+        /* II hisse */
+
+      .img-info{
+        display: none;
+      }
+      .course-info{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .info-boxes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .info-box{
+      width: 30vw;
+    font-size: 18px;
+    }
+    #box3{
+        flex-basis: 100%;
+    }
+    .info-box h2{
+        font-family: "Roboto";
+        font-size: 18px;
+        font-weight: 700;
+        min-width: 7.5rem;
+        margin-bottom: 0;
+       
+    }
+    .info-box p{
+        font-size: 10px;
+        line-height: 12px;
+    }
+            .p1-width{
+             width: 8rem;
+            }
+            .p2-width {
+                width: 8rem;
+               }
+            .p3-width {
+                width:10rem;
+               }
+
+
+    
+         /* III HISSE */
+       
+         .format{
+            margin-top: 40px;
+         }
+         .format-title{
+             margin-bottom: 10px;
+         }
+         .format-content{
+            display: flex;
+            flex-direction: column;
+         }
+         .format h2{
+            font-size: 20px;
+         }
+         .format-item-title {
+            font-family: "Roboto";
+            font-size: 18px;
+            font-weight: 700;
+            color: #1E4681;
+            margin-bottom: 0;
+         }
+         .format-item:nth-child(1){
+            width: 15rem;
+        }
+        .format-item:nth-child(2){
+            width: 18,75rem;
+        }
+        .format-item:nth-child(3){
+            width: 21rem;
+        }
+
+/* 3 cu hissenin sonu */
+.learn{
+    padding-top: 0;
+  margin-top: 15px;
+}
+         .learn-list li{
+            font-size:15px;
+            width: 80vw;
+        }
+        .learn-title{
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+}
+/* 
+telefon gorunum 2 */
+@media (min-width: 501px) and (max-width: 701px){  
+        .course-name {
+            font-size: 40px;
+    
+        }
+        .about-info-container{
+            margin-left: 60px;
+            margin-right: 60px;
+            padding: 0;
+        
+            }
+            main{
+                width: 100%;
+            }
+        .about-section{
+         display: flex;
+         flex-direction: column;
+         gap: 0px;
+         width: 100%;
+        }
+        .text-about{
+            width: 100%;
+            margin: 0 5px;
+        }
+        .text-about p{ 
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 27px;
+            }
+            .img-about-container{
+                width: 80%;
+                display: flex;
+          justify-content: center;
+            }
+            .img-about{
+                width: 13rem;
+                height: 13rem;
+            }
+    
+    
+            /* II hisse */
+
+          .img-info{
+            display: none;
+          }
+          .course-info{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+        .info-boxes{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+    
+        }
+    
+        .info-box{
+          width: 38vw;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        }
+        #box3{
+            flex-basis: 100%;
+        }
+        .info-box h2{
+            font-family: "Roboto";
+            font-size: 20px;
+            font-weight: 700;
+            min-width: 7.5rem;
+            margin-bottom: 0;
+           
+        }
+        .info-box p{
+            font-size: 18px;
+        }
+                .p1-width{
+                 width: 12rem;
+                }
+                .p2-width {
+                    width: 12rem;
+                   }
+                .p3-width {
+                    width:14rem;
+                   }
+    
+    
+        
+             /* III HISSE */
+           
+             .format{
+                margin-top: 40px;
+             }
+             .format-title{
+                 margin-bottom: 15px;
+             }
+             .format-content{
+                display: flex;
+                flex-direction: column;
+             }
+             .format h2{
+                font-size: 30px;
+             }
+            
+             .format-item-title {
+                font-family: "Roboto";
+                font-size: 25px;
+                font-weight: 700;
+                color: #1E4681;
+                margin-bottom: 0;
+             }
+
+             .format-item:nth-child(1){
+                width: 20rem;
+            }
+            .format-item:nth-child(2){
+                width: 18,75rem;
+            }
+            .format-item:nth-child(3){
+                width: 21rem;
+            }
+    
+    /* 3 cu hissenin sonu */
+    .learn{
+        padding-top: 0;
+      margin-top: 20px;
+    }
+             .learn-list li{
+                font-size:18px;
+                width: 80vw;
+            }
+            .learn-title{
+                font-size: 32px;
+                margin-bottom: 20px;
+            }
+}
+@media (min-width: 701px) and (max-width: 991px){
+  
+    .course-name {
+        font-size: 45px;
+
+    }
+    .about-info-container{
+        margin-left: 60px;
+        margin-right: 60px;
+        padding: 0;
+    
+        }
+        main{
+            width: 100%;
+        }
+    .about-section{
+     display: flex;
+     flex-direction: column;
+     gap: 0px;
+     width: 100%;
+    }
+    .text-about{
+        width: 100%;
+        margin: 0 5px;
+    }
+    .text-about p{ 
+        font-size: 24px;
+        font-weight: 500;
+        }
+        .img-about-container{
+            width: 80%;
+            display: flex;
+      justify-content: center;
+        }
+        .img-about{
+            width: 15rem;
+            height: 15rem;
+        }
+
+
+        /* II hisse */
+
+      .img-info{
+        display: none;
+      }
+      .course-info{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .info-boxes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .info-box{
+      width: 40vw;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    }
+    #box3{
+        flex-basis: 100%;
+    }
+    .info-box h2{
+        font-family: "Roboto";
+        font-size: 24px;
+        font-weight: 700;
+        min-width: 7.5rem;
+        margin-bottom: 0;
+       
+    }
+    .info-box p{
+        font-size: 20px;
+    }
+            .p1-width{
+             width: 15rem;
+            }
+            .p2-width {
+                width: 15rem;
+               }
+            .p3-width {
+                width:12rem;
+               }
+
+
+    
+         /* III HISSE */
+       
+         .format{
+            margin-top: 45px;
+         }
+         .format-title{
+             margin-bottom: 10px;
+         }
+         .format-content{
+            display: flex;
+            flex-direction: column;
+         }
+         .format h2{
+            font-size: 40px;
+         }
+        
+         .format-item:nth-child(1){
+            width: 20rem;
+        }
+        .format-item:nth-child(2){
+            width: 18,75rem;
+        }
+        .format-item:nth-child(3){
+            width: 21rem;
+        }
+
+/* 3 cu hissenin sonu */
+.learn{
+    padding-top: 0;
+  margin-top: 20px;
+}
+         .learn-list li{
+            font-size:18px;;
+            width: 80vw;
+        }
+        .learn-title{
+            font-size: 40px;
+            margin-bottom: 25px;
+        }
+    }
