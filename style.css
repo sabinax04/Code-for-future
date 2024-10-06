@@ -7,6 +7,12 @@
     gap: 6.25rem;
 }
 
+.grid-profile{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
 .grid-common{
     display: flex;
     flex-direction: column;
@@ -72,29 +78,78 @@
     column-gap: 2.5rem;
 }
 
+.common-2{
+    background-color: #EFEFEF;
+    width: 100%;
+    height: 48.75rem;
+    padding: 3.75rem;
+    padding-left: 7rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.white-box{
+    width: 49rem;
+    height: 28rem;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    padding: 2.5rem;
+    line-height: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.large-text{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.profile{
+    width: 11.875rem;
+    height: 10.5625rem; 
+}
+
+.facebook{
+    width: 2rem;
+    height: 2rem;
+}
+
+.name-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.common-2h1{
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 3.43rem;
+}
+
+.p-name{
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 1.875rem;
+}
+
 @media screen and (min-width:992px) and (max-width:1279px){
     .common{
         padding: 1.25rem;
-        display: flex;
-        flex-direction: column;
         gap: 6.25rem;
     }
     
-    .grid-common{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
     .h1-tag{
-        font-family: "Roboto Slab", serif;
-        font-weight: 700;
         font-size: 2rem;
         margin-left: 3rem;
     }
@@ -102,47 +157,45 @@
     .image{
         width: 17.5rem;
         height: 8rem;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
     }
     
     .box{
         width: 17.5rem;
         height: 15.6rem;
-        border-radius: 30px;
-        background-color: transparent;
-        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
-        display: flex;
-        flex-direction:column ;
-        align-items: flex-start;
     }
+    
     .h4-tag{
         font-size: 1.125rem;
-        font-weight: 700;
-        margin: 0;
         height: 3.5rem;
     }
     
     .text{
         font-size: 0.9375rem;
-        font-weight: 400;
-        display: flex;
-        flex-direction: column;
     }
     
-    .second-part{
-        padding: 0.9375rem;
-        display: flex;
-        flex-direction: column;
-        
+    .common-2{
+        height: 40rem;
+        padding: 2rem;
+        padding-left: 5rem;
     }
     
-    .second-common{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        row-gap: 2.5rem;
-        column-gap: 2.5rem;
+    .white-box{
+        width: 40rem;
+        height: 24rem;
+        line-height: 1.75rem;
+    }
+    
+    .profile{
+        width: 8.5rem;
+        height: 8rem; 
+    }
+    
+    .common-2h1{
+        font-size: 2.5rem;
+    }
+    
+    .p-name{
+        font-size: 1.5rem;
     }
 
 }
@@ -150,26 +203,10 @@
 @media screen and (min-width:320px) and (max-width:420px){
     .common{
         padding: 1.25rem;
-        display: flex;
-        flex-direction: column;
         gap: 4rem;
     }
     
-    .grid-common{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
     .h1-tag{
-        font-family: "Roboto Slab", serif;
-        font-weight: 700;
         font-size: 1.75rem;
         margin-left: 1rem;
     }
@@ -177,44 +214,70 @@
     .image{
         width: 14rem;
         height: 7rem;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
     }
     
     .box{
         width: 14rem;
         height: 14rem;
-        border-radius: 30px;
-        background-color: transparent;
-        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
-        display: flex;
-        flex-direction:column ;
-        align-items: flex-start;
     }
+
     .h4-tag{
         font-size: 1rem;
-        font-weight: 700;
-        margin: 0;
         height: 2.5rem;
     }
     
     .text{
         font-size: 0.9rem;
-        font-weight: 400;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .second-part{
-        padding: 0.9rem;
-        display: flex;
-        flex-direction: column;
-        
     }
     
     .second-common{
         display: flex;
        flex-direction: column;
+    }
+
+    .common-2{
+        height: 31rem;
+        padding: 2rem;
+        padding-left: 2rem;
+        gap: 2.5rem;
+    }
+    
+    .white-box{
+        width: 16rem;
+        height: 19rem;
+        padding: 2rem;
+        line-height: 0.8rem;
+        gap: 1.5rem;
+    }
+    
+    .large-text{
+        font-size: 0.8rem;
+    }
+    
+    .container{
+        gap: 1.5rem;
+    }
+    
+    .profile{
+        width: 5rem;
+        height: 4.8rem; 
+    }
+    
+    .facebook{
+        width: 0.9rem;
+        height: 0.9rem;
+    }
+    
+    .name-logo{
+        gap: 1rem;
+    }
+    
+    .common-2h1{
+        font-size: 1.625rem;
+    }
+    
+    .p-name{
+        font-size: 0.8rem;
     }
     
 }
@@ -222,26 +285,10 @@
 @media screen and (min-width:421px) and (max-width:520px){
     .common{
         padding: 1.25rem;
-        display: flex;
-        flex-direction: column;
         gap: 4rem;
     }
     
-    .grid-common{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
     .h1-tag{
-        font-family: "Roboto Slab", serif;
-        font-weight: 700;
         font-size: 1.9rem;
         margin-left: 1.5rem;
     }
@@ -249,70 +296,79 @@
     .image{
         width: 17rem;
         height: 8rem;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
     }
     
     .box{
         width: 17rem;
         height: 16rem;
-        border-radius: 30px;
-        background-color: transparent;
-        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
-        display: flex;
-        flex-direction:column ;
-        align-items: flex-start;
     }
     .h4-tag{
         font-size: 1.4rem;
-        font-weight: 700;
-        margin: 0;
         height: 3.4rem;
     }
     
     .text{
         font-size: 0.9rem;
-        font-weight: 400;
-        display: flex;
-        flex-direction: column;
     }
-    
-    .second-part{
-        padding: 0.9rem;
-        display: flex;
-        flex-direction: column;
-        
-    }
-    
+
     .second-common{
         display: flex;
        flex-direction: column;
+    }
+
+    .common-2{
+        height: 34rem;
+        padding: 2.5rem;
+        padding-left: 2.4rem;
+        gap: 3rem;
+    }
+    
+    .white-box{
+        width: 20rem;
+        height: 19rem;
+        padding: 2rem;
+        line-height: 1rem;
+        gap: 1.5rem;
+    }
+    
+    .large-text{
+        font-size: 0.8rem;
+    }
+    
+    .container{
+        gap: 1.5rem;
+    }
+    
+    .profile{
+        width: 5.2rem;
+        height: 4.6rem; 
+    }
+    
+    .facebook{
+        width: 1rem;
+        height: 1rem;
+    }
+    
+    .name-logo{
+        gap: 1rem;
+    }
+    
+    .common-2h1{
+        font-size: 1.9rem;
+    }
+    
+    .p-name{
+        font-size: 0.85rem;
     }
 }
 
 @media screen and (min-width:521px) and (max-width:620px){
     .common{
         padding: 1.25rem;
-        display: flex;
-        flex-direction: column;
         gap: 4rem;
     }
-    
-    .grid-common{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
+ 
     .h1-tag{
-        font-family: "Roboto Slab", serif;
-        font-weight: 700;
         font-size: 2.3rem;
         margin-left: 1.9rem;
     }
@@ -320,39 +376,20 @@
     .image{
         width: 23rem;
         height: 9rem;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
     }
     
     .box{
         width: 23rem;
         height: 19rem;
-        border-radius: 30px;
-        background-color: transparent;
-        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
-        display: flex;
-        flex-direction:column ;
-        align-items: flex-start;
     }
+
     .h4-tag{
         font-size: 1.8rem;
-        font-weight: 700;
-        margin: 0;
         height: 4.5rem;
     }
     
     .text{
         font-size: 1.2rem;
-        font-weight: 400;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .second-part{
-        padding: 0.9rem;
-        display: flex;
-        flex-direction: column;
-        
     }
     
     .second-common{
@@ -360,31 +397,60 @@
        flex-direction: column;
       
     }
+
+    .common-2{
+        height: 36rem;
+        padding: 2.5rem;
+        padding-left: 2.7rem;
+        gap: 3.5rem;
+    }
+    
+    .white-box{
+        width: 25rem;
+        height: 20rem;
+        padding: 2rem;
+        line-height: 1.3rem;
+        gap: 1.6rem;
+    }
+    
+    .large-text{
+        font-size: 0.9rem;
+    }
+    
+    .container{
+        gap: 1.6rem;
+    }
+    
+    .profile{
+        width: 5.6rem;
+        height: 5rem; 
+    }
+    
+    .facebook{
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    
+    .name-logo{
+        gap: 1rem;
+    }
+    
+    .common-2h1{
+        font-size: 1.9rem;
+    }
+    
+    .p-name{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-width:621px) and (max-width:720px){
     .common{
         padding: 1.25rem;
-        display: flex;
-        flex-direction: column;
         gap: 4rem;
     }
     
-    .grid-common{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
     .h1-tag{
-        font-family: "Roboto Slab", serif;
-        font-weight: 700;
         font-size: 2.8rem;
         margin-left: 2.1rem;
     }
@@ -392,39 +458,20 @@
     .image{
         width: 27rem;
         height: 10rem;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
     }
     
     .box{
         width: 27rem;
         height: 22rem;
-        border-radius: 30px;
-        background-color: transparent;
-        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
-        display: flex;
-        flex-direction:column ;
-        align-items: flex-start;
     }
+
     .h4-tag{
         font-size: 2rem;
-        font-weight: 700;
-        margin: 0;
         height: 5rem;
     }
     
     .text{
         font-size: 1.4rem;
-        font-weight: 400;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .second-part{
-        padding: 0.9rem;
-        display: flex;
-        flex-direction: column;
-        
     }
     
     .second-common{
@@ -432,31 +479,60 @@
        flex-direction: column;
       
     }
+    .common-2{
+        height: 34rem;
+        padding: 2.5rem;
+        padding-left: 2.5rem;
+        gap: 3rem;
+    }
+    
+    .white-box{
+        width: 29rem;
+        height: 20rem;
+        padding: 2rem;
+        line-height: 1.3rem;
+        gap: 1.5rem;
+    }
+    
+    .large-text{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    .container{
+        gap: 1.5rem;
+    }
+    
+    .profile{
+        width: 5.6rem;
+        height: 5rem; 
+    }
+    
+    .facebook{
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    
+    .name-logo{
+        gap: 1rem;
+    }
+    
+    .common-2h1{
+        font-size: 2.1rem;
+    }
+    
+    .p-name{
+        font-size: 1rem;
+    }
 }
 
 @media screen and (min-width:721px) and (max-width:850px){
     .common{
         padding: 1.25rem;
-        display: flex;
-        flex-direction: column;
         gap: 4rem;
     }
-    
-    .grid-common{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
+
     .h1-tag{
-        font-family: "Roboto Slab", serif;
-        font-weight: 700;
         font-size: 3rem;
         margin-left: 2.5rem;
     }
@@ -464,39 +540,20 @@
     .image{
         width: 32rem;
         height: 12rem;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
     }
     
     .box{
         width: 32rem;
         height: 25rem;
-        border-radius: 30px;
-        background-color: transparent;
-        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
-        display: flex;
-        flex-direction:column ;
-        align-items: flex-start;
     }
+
     .h4-tag{
         font-size: 2.4rem;
-        font-weight: 700;
-        margin: 0;
         height: 5.9rem;
     }
     
     .text{
         font-size: 1.6rem;
-        font-weight: 400;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .second-part{
-        padding: 0.9rem;
-        display: flex;
-        flex-direction: column;
-        
     }
     
     .second-common{
@@ -504,31 +561,60 @@
        flex-direction: column;
       
     }
+
+    .common-2{
+        height: 36rem;
+        padding: 2.5rem;
+        padding-left: 3.3rem;
+        gap: 3rem;
+    }
+    
+    .white-box{
+        width: 33rem;
+        height: 23rem;
+        padding: 2rem;
+        line-height: 1.5rem;
+        gap: 1.5rem;
+    }
+    
+    .large-text{
+        font-size: 1.2rem;
+    }
+    
+    .container{
+        gap: 1.5rem;
+    }
+    
+    .profile{
+        width: 6rem;
+        height: 5.4rem; 
+    }
+    
+    .facebook{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    
+    .name-logo{
+        gap: 1rem;
+    }
+    
+    .common-2h1{
+        font-size: 2.4rem;
+    }
+    
+    .p-name{
+        font-size: 1.3rem;
+    }
 }
 
 @media screen and (min-width:851px) and (max-width:992px){
     .common{
         padding: 1.25rem;
-        display: flex;
-        flex-direction: column;
         gap: 4rem;
     }
-    
-    .grid-common{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
+
     .h1-tag{
-        font-family: "Roboto Slab", serif;
-        font-weight: 700;
         font-size: 3.3rem;
         margin-left: 3rem;
     }
@@ -536,39 +622,20 @@
     .image{
         width: 38rem;
         height: 13rem;
-        border-top-left-radius: 30px;
-        border-top-right-radius: 30px;
     }
     
     .box{
         width: 38rem;
         height: 28rem;
-        border-radius: 30px;
-        background-color: transparent;
-        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
-        display: flex;
-        flex-direction:column ;
-        align-items: flex-start;
     }
+
     .h4-tag{
         font-size: 2.8rem;
-        font-weight: 700;
-        margin: 0;
         height: 6.9rem;
     }
     
     .text{
         font-size: 1.9rem;
-        font-weight: 400;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .second-part{
-        padding: 0.9rem;
-        display: flex;
-        flex-direction: column;
-        
     }
     
     .second-common{
@@ -576,4 +643,49 @@
        flex-direction: column;
       
     }
+    .common-2{
+        height: 36rem;
+        padding: 2.5rem;
+        padding-left: 3.3rem;
+        gap: 3rem;
+    }
+    
+    .white-box{
+        width: 37rem;
+        height: 25rem;
+        padding: 2rem;
+        line-height: 1.7rem;
+        gap: 1.8rem;
+    }
+    
+    .large-text{
+        font-size: 1.3rem;
+    }
+    
+    .container{
+        gap: 1.5rem;
+    }
+    
+    .profile{
+        width: 6.4rem;
+        height: 5.8rem; 
+    }
+    
+    .facebook{
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+    
+    .name-logo{
+        gap: 1rem;
+    }
+    
+    .common-2h1{
+        font-size: 2.6rem;
+    }
+    
+    .p-name{
+        font-size: 1.5rem;
+    }
+
 }
