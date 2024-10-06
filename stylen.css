@@ -1,145 +1,540 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-.header{
-    background-color: #EFEFEF;
-    width: 100%;
-    height: 680px;
-    padding-left: 120px;
-    padding-top: 20px;
-}
-.information{
-    width: 52%;
-    height: 70%;
-    border-radius: 30px;
-    background-color: white;
-    box-shadow: 1px 1px 20px 0px #00000040;
-    padding-left: 60px;
-    padding-top: 30px;
-}
-.header_title, .name{    
-    font-family: Roboto Slab;
-    font-size: 55px;
-    font-weight: 700;
-}
-body{
-    font-family: Roboto Slab;
-}
-p{
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-    width: 700px;
-    height: 203px;
-    font-size: 20px;
+    }
+    p{
+    height: 12.68rem;
+    font-size: 1.25rem;
     font-weight: 400;
-}
-.name{
-    font-size: 30px;
-    margin-top: 40px;
-    height: 20px;
-}
-.header_pict{
-    display: flex;
-
-}
-
-.section{
+    }
+    .section{
     background-color: #9DC9C8;
     width: 100%;
-    height: 602px;
-    padding-left: 120px;
-    padding-top: 120px;
-}
-
-h1{
-    margin-top: 0px;
-}
-
-.teq{
-    font-family:  "Roboto", sans-serif;
-    font-size: 25px;
+    height: 1000px;
+    padding-left: 80px;
+    padding-top: 5rem;
+    }
+    h1{
+    margin-top: 0rem;
+    font-size: 90px;
+    font-family: "Roboto Slab", serif;
+    }
+    .teq{
+    font-size: 40px;
     font-weight: 400;
-    width: 170px;
-    height: 32px;
-    margin-top: 70px;
-
-
-}
-.price{
-    font-size: 80px;
+    width: 10.625rem;
+    height: 2rem;
+    margin-top: 4.375rem;
+    }
+    .price{
     font-weight: 400;
-}
-.infor{
+    }
+    .information{
     display: flex;
-}
-.left{
-    padding-left: 20px;
-    height: 50px;
-    width: 360px;
-}
-
-.text_header{
+    padding-top: 100px;
+    height: 15rem;
+    width: 100%;
+    }
+    .left{
+    height: 3.125rem;
+    font-weight: 400;
+    }
+    .contact_icon{
+    width: 3.75rem;
+    height: 3.75rem;
+    }
+    .text_header{
     font-family: Roboto;
-    font-size: 25px;
-    font-weight: 500;
-    height: 30px;
-
-}
-.text{
-    width: 300px;
-    height: 20px;   
-    font-family: Roboto;
-    font-size: 18px;
-    font-weight: 500;
-}
-.footer{
+    font-size: 35px;
+    font-weight: 400;
+    height: 1.5rem;
+    padding-bottom:2.5rem;
+    width: 430px;
+    }
+    .text, .text1{
+    padding-top: 10px;
+    height: 5px;
+    width: 200px;
+    font-size: 20px;
+    }
+    .footer{
     display: flex;
     background-color: black;
     width: 100%;
-    height: 300px;
-    padding-right: 20px;
-    padding-top: 60px;
+    height: 540px;
+    padding-left: 80px;
+    padding-top: 3.75rem;
     justify-content: space-between;
-}
-.left1{
-    padding-left: 120px;
-}
-.images{
-    padding-top: 20px;
+    }
+    .icon{
+    width: 50px;
+    height: 50px;
+    padding-left: 0px ;
+    }
+    .right{
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 0px;
+    }
+    .images{
+    padding-top: 0px;
     display: flex;
     gap:15px;
-    padding-bottom: 80px;
-}
-.course_info{
+    padding-bottom:200px;
+    margin-left: -14px;
+    height: 10px;
+    }
+    .course_info{
     color:white;
-    height: 20px;
-    font-size: 18px;
-}
-.right1{
+    font-size: 30px;
+    height: 0px;
+    width: 100%;
+    }
+    .contact_user{
     padding-right: 200px;
-}
-.course_contact{
+    }
+    .course_contact{
     color:white;
-    padding-left: 20px;
-    width: 200px;
-    height: 20px;
-}
-.phone{
+    padding-left: 10px;
+    height: 1.25rem;
+    width: 100%;
+    font-size: 25px;
+    padding-top: 6px;
+    }
+    .phone, .gmail{
     display: flex;
-}
-.iphone{
-    height: 22px;
-    padding-top: 20px;
-}
-@media screen and (min-width: 320px) and (max-width: 921px) {
-    .header{
-        width: 100%;
-        padding-right: 80px;
+    padding-top: 4px;
+    }
+    .logo{
+        width: 150px;
+        height: 150px;
+    }
+@media screen and (min-width: 321px) and (max-width: 440px) {
+    .section{
+        padding-left: 30px;
+        height: 420px;
+        padding-top: 40px;
     }
     .header_title{
+        font-size: 32px;
+        width: 100%;
+    }
+    .price{
+        font-size: 34px;
+    }
+    .information{
+        padding-top: 50px;
+    }
+    .text, .text1{
+        font-size: 12px;
+        width: 130px;
+    }
+    .information{
+        padding-top: 40px;
+        height: 150px;
+        width: 100%;
+    }
+    .text_header{
+        width: 138px;
+        font-size: 15px;
+    }
+    .left{
+        padding-left: 0px;
+    }
+    .right{
+        padding-left:16px;
+    }
+    .logo{
+        width: 80px;
+        height: 80px;
+    }
+    .images{
+        padding-top: 0px;
+        padding-bottom: 40px;
+        margin-left: -14px;
+    }
+    .contact{
+        width: 200px;
+        height: 240px;
+    }
+    .contact_icon{
+        height: 30px;
+    }
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+    .footer{
+        padding:20px 0px 0px 30px;
+        height: 270px;
+        display: grid;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .course_info{
+        font-size: 16px;
+        padding-top: 100px;
+    }
+    .phone{
+        padding-bottom: 7px;
+    }
+    .contact_user{
+        margin-top: -120px;
+        height: 100px;
+        width: 250px;
+    }
+    .contact_data{
+        padding-top: 0px;
+    }
+    .course_contact{
+        font-size: 16px;
+        width: 200px;
+        padding-top: 0px;
+    }
+    .teq{
+        font-size: 20px;
+        padding-top: 20px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 441px) and (max-width: 500px) {
+    .section{
+        padding-left: 30px;
+        height: 500px;
+        padding-top: 40px;
+    }
+    .header_title{
+        font-size: 36px;
+        width: 100%;
+    }
+    .price{
         font-size: 46px;
     }
     .information{
-        width: 400px;
+        padding-top: 50px;
+    }
+    .information{
+        padding-top: 40px;
+        height: 150px;
+        width: 100%;
+    }
+    .text, .text1{
+        font-size: 12px;
+        width: 150px;
+    }
+    .text_header{
+        width: 180px;
+        font-size: 17px;
+    }
+    .left{
+        padding-left: 0px;
+    }
+    .logo{
+        width: 90px;
+        height: 90px;
+    }
+    .images{
+        padding-top: 0px;
+        padding-bottom: 90px;
+        margin-left: -14px;
+    }
+    .contact{
+        width: 200px;
+        height: 80px;
+    }
+    .icon{
+        width: 26px;
+        height: 26px;
+    }
+    .course_info{
+        font-size: 16px;
+        padding-top: 110px;
+    }
+    .phone{
+        padding-bottom: 7px;
+    }
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+    .phone{
+        padding-bottom: 7px;
+    }
+    .contact_user{
+        height: 20px;
+        margin-top: -20px;
+        width: 200px;
+        padding-bottom: 20px;
+    }
+    .footer{
+        padding:20px 0px 0px 30px;
+        height: 358px;
+        display: grid;
+        flex-direction: row;
+        justify-content: start;
+        }
+    .contact_data , .contact_icon{
+        padding-top: 0px;
+        height: 30px;
+    }
+    .course_contact{
+        font-size: 16px;
+        padding-top: 0px;
+        width: 300px;
+    }
+    .teq{
+        font-size: 30px;
+    }
+    .right{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
     }
 
+@media screen and (min-width: 501px) and (max-width: 700px) {
+    .section{
+        padding-left: 30px;
+        height: 500px;
+        padding-top: 40px;
+    }
+    .header_title{
+        font-size: 38px;
+        width: 100%;
+    }
+    .price{
+        font-size: 48px;
+    }
+    .teq{
+        font-size: 25px;
+    }
+    .information{
+        padding-top: 40px;
+        height: 150px;
+    }
+    .text_header{
+        width: 180px;
+        font-size: 19px;
+    }
+    .left{
+        padding-right: 30px;
+    }
+    .logo{
+        width: 98px;
+        height: 98px;
+    }
+    .images{
+        padding-top: 0px;
+        padding-bottom:180px;
+        margin-left: -14px;
+    }
+    .contact{
+        width: 200px;
+        height: 240px;
+    }
+    .contact_icon{
+        height: 30px;
+    }
+    .footer{
+        padding:20px 0px 0px 30px;
+        height: 330px;
+        display: grid;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .icon{
+        width: 26px;
+        height: 26px;
+    }
+    .course_contact{
+        font-size: 18px;
+        width: 300px;
+    }
+    .course_info{
+        font-size: 18px;
+        padding-top: 0px;
+    }
+    .phone{
+        padding-bottom: 7px;
+    }
+    .contact_user{
+        margin-top: -110px;
+        width: 200px;
+    }
+    .text, .text1{
+        padding-top: 10px;
+        height: 5px;
+        width: 150px;
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 992px) {
+    .section{
+        padding-left: 30px;
+        height: 550px;
+        padding-top: 40px;
+    }
+    .header_title{
+        font-size: 46px;
+        width: 430px;
+    }
+    .price{
+        font-size: 50px;
+    }
+    .teq{
+        font-size: 30px;
+    }
+    .text, .text1{
+        font-size: 15px;
+    }
+    .information{
+        padding-top: 40px;
+        height: 150px;
+    }
+    .text_header{
+        width: 200px;
+        font-size: 20px;
+    }
+    .left{
+        padding-left: 0px;
+    }
+    .footer{
+        padding:20px 0px 0px 30px;
+        height: 400px;
+        display: grid;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .logo{
+        width: 112px;
+        height: 112px;
+    }
+    .images{
+        padding-top: 0px;
+        padding-bottom:150px;
+        margin-left: -14px;
+    }
+    .contact{
+        width: 200px;
+        height: 240px;
+    }
+    .left{
+        width: 30%;
+    }
+    .contact_icon{
+        height: 30px;
+    }
+    .course_info{
+        font-size: 20px;
+        padding-top: 80px;
+        width: 600px;
+    }
+    .icon{
+        width: 30px;
+        height: 30px;
+    }
+    .course_contact{
+        font-size: 20px;
+    }
+    .phone{
+        padding-bottom: 7px;
+        padding-top: 20px;
+    }
+    .contact_user{
+        margin-top: -120px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .section{
+        padding-left: 60px;
+        height: 800px;
+        padding-top: 80px;
+    }
+    .header_title{
+        font-size: 70px;
+        width: 100%;
+    }
+    .boldshift{
+        width: 600px;
+    }
+    .bold1{
+        width: 400px;;
+    }
+    .price{
+        font-size: 60px;
+    }
+    .teq{
+        font-size: 35px;
+    }
+    .text, .text1{
+        padding-top: 10px;
+        height: 5px;
+        width: 200px;
+        font-size: 20px;
+    }
+    .information{
+        padding-top: 40px;
+        height: 150px;
+        width: 70%;
+    }
+    .text_header{
+        width: 450px;
+        font-size: 26px;
+    }
+    .left{
+        padding-left: 0px;
+    }
+    .footer{
+        padding:20px 0px 0px 30px;
+        height: 430px;
+        display:flex;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 130px;
+        height: 122px;
+    }
+    .images{
+        padding-top: 0px;
+        padding-bottom:200px;
+        margin-left: -14px;
+    }
+    .contact{
+        width: 200px;
+        height: 240px;
+    }
+    .contact_user{
+        width: 400px;
+        height: 400px;
+        padding-right: 0px;
+        padding-top: 16px;
+    }
+    .contact_icon{
+        height: 30px;
+    }
+    .icon{
+        width: 35px;
+        height: 35px;
+    }
+    .course_contact{
+        font-size: 22px;
+        width: 300px;
+        padding-top: 5px;
+    }
+    .course_info{
+        font-size: 25px;
+        padding-top: 0px;
+        width: 300px;
+    }
+    .phone{
+        padding-bottom: 15px;
+    }    
+    .left{
+        width: 50%;
+    }
 }
