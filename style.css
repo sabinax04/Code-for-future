@@ -1,0 +1,2233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cavid{
+    margin-bottom: 5rem;
+}
+
+.h-logo{
+    width: 7rem;
+    height: 4.125rem;
+    margin-left: 7.5625rem;
+    margin-top: 1.3125rem;
+}
+
+
+.globe{
+    margin-top: 6.0625rem;
+    margin-left: 7.5625rem;
+    width: 1.375rem;
+    height: 1.3125rem;
+}
+
+.clock{
+    margin-top: 6rem;
+    margin-left: -0.9375rem;
+    width: 1.375rem;
+    height: 1.375rem;
+}
+
+.calendar{
+    margin-top: 6rem;
+    margin-left: -2.5625rem;
+    width: 1.25rem;
+    height: 1.375rem;
+}
+
+.info1p{
+    font-family: "Roboto", sans-serif;
+    margin-top: 6.25rem;
+    width: 8.125rem;
+    height: 2rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.4375rem;
+}
+
+.info2p{
+    margin-top: 6.25rem;
+    margin-left: 0.125rem;
+    height: 2rem;
+    width: 8.125rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.4375rem;
+}
+
+.info3p{
+    margin-top: 6.25rem;
+    margin-left: 0.3125rem;
+    height: 2rem;
+    width: 8.125rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.4375rem;
+}
+
+.info{
+    display:flex;
+    gap: 2.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.info1{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.info2{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.info3{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.cinema{
+    display:flex;
+    gap: 18rem;
+}
+
+.cinemah1{
+    font-family: "Roboto Slab", serif;
+    margin-top: 1.875rem;
+    margin-left: 7.625rem;
+    width: 39.25rem;
+    height: 10.8125rem;
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+
+.cinemap{
+    font-family: "Roboto", sans-serif;
+    margin-left: 7.625rem;
+    margin-top: 0.3125rem;
+    width: 25.875rem;
+    height: 3.875rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.cameraman {
+    position: relative;
+    top: 0.1875rem;
+    left: 7.5rem;
+    width: 21.875rem;
+    height: 23.75rem;
+}
+
+.author{
+    box-sizing: border-box;
+    margin-top: 4.0625rem;
+    margin-left: 25.625rem;
+    background-color: #1E4681;
+    font-family: "Roboto Slab", serif;
+    width: 30rem;
+    height: 12.5rem;
+    color:white;
+    border-radius: 0.3125rem;
+    padding: 1.5625rem;
+}
+
+.author1{
+    font-family:"Roboto Slab", serif;  
+    font-weight:330;
+    font-size:25px;
+    line-height:31px;
+}
+
+.author2{
+    display:flex;
+    font-family: "Roboto", sans-serif;
+    font-size:20px;
+    line-height: 26px;
+    margin-left: 244px;
+    margin-top:10px;
+}  
+
+@media (min-width:992px) and (max-width:1279px){
+
+    .cavid{
+        margin-bottom: 10rem;
+    }
+
+    .h-logo{
+        margin-left:100px;
+        margin-top:40px;
+    }
+
+    .globe{
+        margin-left:100px;
+    }
+
+    .cinemah1{
+        margin-top:10px;
+        margin-left:100px;
+        font-size:70px;
+        line-height: 70px;
+    }
+    
+    .cinema{
+        gap: 0;
+    }
+
+    .cinemap{
+        margin-left:100px;
+    }
+
+    .cameraman {
+        padding-right:19rem;
+        width: 30rem;
+        height: 30rem;
+        padding-bottom: 15rem;
+    }
+
+    .author{
+        margin-left:380px;
+        width: 470px;
+        height: 190px;
+        padding: 23px;
+        margin-top: 0;
+    }
+
+    .author1{
+        font-size:24px;
+        line-height:29px;
+    }
+
+    .author2{
+        font-size:19px;
+        line-height: 26px;
+        margin-left: 240px;
+        margin-top:5px;
+    }
+}
+
+@media screen and ( min-width: 320px) and (max-width: 500px){
+
+
+    .cavid{
+        overflow-y: hidden;
+    }
+
+    .h-logo{
+        width: 3.4rem;
+        height: 1.8rem;
+        margin-left:2rem;
+        margin-top:60px;
+    }
+
+    .hlogo{
+        width: 5rem;
+        height: 3rem;
+    }
+    .globe{
+        margin-top:80px;
+        margin-left:2rem;
+        width: 20px;
+        height: 20px;
+    }
+    .clock{
+        margin-top:80px;
+        margin-left:-20px;
+        width: 20px;
+        height: 20px;
+    }
+    .calendar{
+        margin-top:80px;
+        margin-left:-46px;
+        height: 20px;
+    }
+
+    .info{
+    display:flex;
+    gap: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    }
+
+    .info1p{
+        margin-top:80px;
+        width:125px;
+        font-size:1rem;
+    }
+    .info2p{
+        margin-top:80px;
+        width: 125px;
+        font-size:1rem;
+    }
+    .info3p{
+        margin-top:80px;
+        width: 125px;
+        font-size:1rem;
+    }
+    .cinema{
+        flex-direction: column;
+    }
+    .cinemah1{
+        font-size:2rem;
+        margin-top:1rem;
+        margin-left:2rem;
+        height: 150px;
+        line-height: 70px;
+    }
+    .cinemap{
+        margin-left:2rem;
+        margin-top: -4rem;
+        width: 60vw;
+        font-size: 1rem;
+    }
+
+    .div-cameraman{
+        width: 40vw;
+    }
+
+    .cameraman {
+        margin-top: -20rem;
+        margin-right:4rem;
+        width: 14rem;
+        height: 15rem;
+    }
+    .author{
+        margin-top:90px;
+        margin-left:1.5rem;
+        width: 22rem;
+        height: 10.5rem;
+        padding: 20px;
+    }
+    .author1{
+        font-size:0.8rem;
+        line-height:29px;
+    }
+    .author2{
+        font-size:0.8rem;
+        margin-left: 240px;
+        margin-top:3px;
+    }
+}
+
+
+.about-info-container{
+padding: 60px;
+margin-left: 60px;
+}
+
+.course-name {
+    font-family: "Roboto Slab", serif;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.about-section{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    gap: 150px;
+    margin-bottom: 20px;
+}
+
+.text-about{
+    width: 51vw;
+}
+
+.text-about p{ 
+font-family: "Roboto";
+font-size: 1.6rem;
+font-weight: 400;
+line-height: 36px;
+}
+
+.img-about-container{
+  display: flex;
+ align-items: center;
+}
+
+.img-about{
+    width: 21rem;
+    height: 20rem;
+}
+
+.course-info{
+    display: grid;
+    grid-template-columns:1fr 3fr;
+    gap: 5rem;
+    margin-top: 6rem;
+}
+
+.info-boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info-box{
+   width: 150px;
+    font-size: 18px;
+}
+
+.info-box h2{
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.info-box p{
+    font-family: "Roboto";
+     font-weight: 400;
+    font-size: 18px;
+  line-height: 23.4px;
+ margin-top: 0;
+}
+
+.format{
+   margin-top: 130px;
+}
+
+.format-title{
+    font-family: "Roboto Slab", serif;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.format-content{
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.format-item-title{
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 700;
+    color: #1E4681;
+   margin-bottom: 0;
+}
+
+.format-item-description{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    margin-top: 5px;
+}
+
+.format-item:nth-child(1){
+    width: 223px;
+}
+
+.format-item:nth-child(2){
+    width: 271px;
+}
+
+.format-item:nth-child(3){
+    width: 245px;
+}
+
+.learn{
+    margin-bottom: 7.5rem;
+    margin-top: 5.5rem;
+}
+
+.learn-list{
+    width: 50vw;
+    padding-left: 20px;
+}
+
+.learn-title{
+    font-family: "Roboto Slab", serif;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.learn-list li{
+    font-family: "Roboto", sans-serif;
+    font-size:24px;
+    font-weight: 400;
+    line-height: 36px;
+} 
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+
+.about-info-container{
+    padding:10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    }
+
+.about-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    }
+
+.course-name {
+    font-family: "Roboto Slab", serif;
+    font-size: 50px;
+    font-weight: 700;
+    }
+
+.text-about{
+    width: 50vw;
+    }
+
+.specific-p{
+    width: 51vw;
+    }
+
+.text-about p{ 
+    font-family: "Roboto";
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.9rem;
+    padding-bottom: 2rem;
+    }
+
+.img-about{
+    width: 18rem;
+    margin-right: 3rem;
+    }
+
+.course-info{
+    display: grid;
+    grid-template-columns:1fr 4fr;
+    }
+
+.info-boxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+.info-box h2{
+    width: 136.88px;
+    }
+
+.info-box:nth-child(odd) p{
+    width: 126.88px;
+    }
+
+.info-box:nth-child(2) p{
+    width: 150px;
+    }
+
+.info-box h2{
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    }
+
+.info-box p{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    }
+
+.imgage-info{
+    width:10% ;
+    }
+
+.format{
+   margin-top: 7rem;
+}
+
+.format-title{
+    margin-bottom: 7rem;
+    font-size: 40px;
+}
+
+.format-content{
+    margin-bottom: 9rem;
+}
+
+.format-item-title{
+    font-size: 22px;
+}
+
+.format-item-description{
+    font-size: 15px;
+}
+
+.format-item:nth-child(1) p{
+     width: 190px;
+     margin-right: 5px;
+ }
+
+.format-item:nth-child(2) p{
+     width: 230px;
+     margin-right: 5px;
+ }
+
+.format-item:nth-child(3) p{
+     width: 200px;
+ }
+
+.learn{
+    margin-bottom: 200px;
+    margin-top: 80px;
+}
+
+.learn-title{
+    font-family: "Roboto Slab", serif;
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.learn-list{
+    width: 384px;
+    padding-left: 8px;
+}
+
+.learn-list li{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+}
+}
+
+@media (min-width: 320px) and (max-width: 500px){
+  
+    .course-name {
+        font-size: 3rem;
+
+    }
+    .about-info-container{
+        margin-left: 2rem;
+        padding: 0;
+    
+        }
+        main{
+            width: 100%;
+        }
+
+    .about-section{
+     display: flex;
+     flex-direction: column;
+     gap: 3rem;
+     width: 100vw;
+    }
+
+    .text-about{
+        width: 100vw;
+    }
+    .text-about p{ 
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 2rem;
+        width: 85vw;
+        }
+
+        .img-about-container{
+            width: 100%;
+            display: flex;
+      justify-content: center;
+        }
+        .img-about{
+            width: 10rem;
+            height: 10rem;
+        }
+
+      .img-info{
+        display: none;
+      }
+      .course-info{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .info-boxes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 2rem;
+        margin-right: 2rem;
+
+    }
+
+    .info-box{
+      width: 30vw;
+    font-size: 18px;
+    }
+    #box3{
+        flex-basis: 100%;
+    }
+    .info-box h2{
+        font-family: "Roboto";
+        font-size: 18px;
+        font-weight: 700;
+        min-width: 7.5rem;
+        margin-bottom: 0;
+       
+    }
+    .info-box p{
+        font-size: 10px;
+        line-height: 12px;
+    }
+            .p1-width{
+             width: 8rem;
+            }
+            .p2-width {
+                width: 8rem;
+               }
+            .p3-width {
+                width:10rem;
+               }
+       
+         .format{
+            margin-top: 40px;
+         }
+         .format-title{
+             margin-bottom: 1.3rem;
+         }
+         .format-content{
+            display: flex;
+            flex-direction: column;
+            gap: 3rem;
+         }
+         .format h2{
+            font-size: 20px;
+         }
+         .format-item-title {
+            font-family: "Roboto";
+            font-size: 18px;
+            font-weight: 700;
+            color: #1E4681;
+            margin-bottom: 0;
+         }
+         .format-item:nth-child(1){
+            width: 15rem;
+        }
+        .format-item:nth-child(2){
+            width: 18,75rem;
+        }
+        .format-item:nth-child(3){
+            width: 21rem;
+        }
+
+.learn{
+    padding-top: 0;
+  margin-top: 15px;
+}
+         .learn-list li{
+            font-size:15px;
+            width: 80vw;
+        }
+        .learn-title{
+            font-size: 25px;
+            margin-bottom: 15px;
+            margin-top: 3.5rem;
+        }
+}
+
+@media (min-width: 501px) and (max-width: 701px){  
+        .course-name {
+            font-size: 40px;
+    
+        }
+        .about-info-container{
+            margin-left: 60px;
+            margin-right: 60px;
+            padding: 0;
+        
+            }
+            main{
+                width: 100%;
+            }
+        .about-section{
+         display: flex;
+         flex-direction: column;
+         gap: 0px;
+         width: 100%;
+        }
+        .text-about{
+            width: 100%;
+            margin: 0 5px;
+        }
+        .text-about p{ 
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 27px;
+            }
+            .img-about-container{
+                width: 80%;
+                display: flex;
+          justify-content: center;
+            }
+            .img-about{
+                width: 13rem;
+                height: 13rem;
+            }
+
+          .img-info{
+            display: none;
+          }
+          .course-info{
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+        .info-boxes{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+    
+        }
+    
+        .info-box{
+          width: 38vw;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        }
+        #box3{
+            flex-basis: 100%;
+        }
+        .info-box h2{
+            font-family: "Roboto";
+            font-size: 20px;
+            font-weight: 700;
+            min-width: 7.5rem;
+            margin-bottom: 0;
+           
+        }
+        .info-box p{
+            font-size: 18px;
+        }
+                .p1-width{
+                 width: 12rem;
+                }
+                .p2-width {
+                    width: 12rem;
+                   }
+                .p3-width {
+                    width:14rem;
+                   }
+           
+             .format{
+                margin-top: 40px;
+             }
+             .format-title{
+                 margin-bottom: 15px;
+             }
+             .format-content{
+                display: flex;
+                flex-direction: column;
+             }
+             .format h2{
+                font-size: 30px;
+             }
+            
+             .format-item-title {
+                font-family: "Roboto";
+                font-size: 25px;
+                font-weight: 700;
+                color: #1E4681;
+                margin-bottom: 0;
+             }
+
+             .format-item:nth-child(1){
+                width: 20rem;
+            }
+            .format-item:nth-child(2){
+                width: 18,75rem;
+            }
+            .format-item:nth-child(3){
+                width: 21rem;
+            }
+
+    .learn{
+        padding-top: 0;
+      margin-top: 20px;
+    }
+             .learn-list li{
+                font-size:18px;
+                width: 80vw;
+            }
+            .learn-title{
+                font-size: 32px;
+                margin-bottom: 20px;
+            }
+}
+@media (min-width: 701px) and (max-width: 991px){
+    .course-name {
+        font-size: 45px;
+
+    }
+
+    .about-info-container{
+        margin-left: 60px;
+        margin-right: 60px;
+        padding: 0;
+        }
+
+        main{
+            width: 100%;
+        }
+
+    .about-section{
+     display: flex;
+     flex-direction: column;
+     gap: 0px;
+     width: 100%;
+    }
+
+    .text-about{
+        width: 100%;
+        margin: 0 5px;
+    }
+
+    .text-about p{ 
+        font-size: 24px;
+        font-weight: 500;
+        }
+
+        .img-about-container{
+            width: 80%;
+            display: flex;
+      justify-content: center;
+        }
+
+        .img-about{
+            width: 15rem;
+            height: 15rem;
+        }
+
+      .img-info{
+        display: none;
+      }
+
+      .course-info{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .info-boxes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    .info-box{
+      width: 40vw;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    }
+
+    #box3{
+        flex-basis: 100%;
+    }
+
+    .info-box h2{
+        font-family: "Roboto";
+        font-size: 24px;
+        font-weight: 700;
+        min-width: 7.5rem;
+        margin-bottom: 0;
+       
+    }
+
+    .info-box p{
+        font-size: 20px;
+    }
+
+            .p1-width{
+             width: 15rem;
+            }
+
+            .p2-width {
+                width: 15rem;
+               }
+
+            .p3-width {
+                width:12rem;
+               }
+       
+         .format{
+            margin-top: 45px;
+         }
+
+         .format-title{
+             margin-bottom: 10px;
+         }
+
+         .format-content{
+            display: flex;
+            flex-direction: column;
+         }
+
+         .format h2{
+            font-size: 40px;
+         }
+        
+         .format-item:nth-child(1){
+            width: 20rem;
+        }
+
+        .format-item:nth-child(2){
+            width: 18,75rem;
+        }
+
+        .format-item:nth-child(3){
+            width: 21rem;
+        }
+
+    .learn{
+    padding-top: 0;
+  margin-top: 20px;
+}
+         .learn-list li{
+            font-size:18px;;
+            width: 80vw;
+        }
+        .learn-title{
+            font-size: 40px;
+            margin-bottom: 25px;
+        }
+    }
+
+    .common{
+        padding: 3.75rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .grid-profile{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+    
+    .grid-common{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .h1-tag{
+        font-family: "Roboto Slab", serif;
+        font-weight: 700;
+        font-size: 3.43rem;
+        margin-left: 4.5rem;
+    }
+    
+    .image{
+        width: 21.875rem;
+        height: 10rem;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+    }
+    
+    .box{
+        width: 21.875rem;
+        height: 20.625rem;
+        border-radius: 30px;
+        background-color: transparent;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction:column ;
+        align-items: flex-start;
+    }
+    .h4-tag{
+        font-size: 1.875rem;
+        font-weight: 700;
+        margin: 0;
+        height: 5rem;
+    }
+    
+    .textt{
+        font-size: 1.25rem;
+        font-weight: 400;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .second-part{
+        padding: 0.9375rem;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .second-common{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 2.5rem;
+        column-gap: 2.5rem;
+    }
+    
+    .common-2{
+        background-color: #EFEFEF;
+        width: 100%;
+        height: 48.75rem;
+        padding: 3.75rem;
+        padding-left: 7rem;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4rem;
+    }
+    
+    .white-box{
+        width: 49rem;
+        height: 28rem;
+        background-color: #fff;
+        border-radius: 30px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+        padding: 2.5rem;
+        line-height: 1.875rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .large-text{
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+    
+    .container{
+        display: flex;
+        align-items: center;
+        gap: 2.5rem;
+        
+       
+    }
+    
+    .profile{
+        width: 11.875rem;
+        height: 10.5625rem; 
+    }
+    
+    .facebook{
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    .name-logo{
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    
+    .common-2h1{
+        font-family: "Roboto Slab", serif;
+        font-weight: 700;
+        font-size: 3.43rem;
+    }
+    
+    .p-name{
+        font-family: "Roboto Slab", serif;
+        font-weight: 700;
+        font-size: 1.875rem;
+        height: 0;
+    }
+    
+    @media screen and (min-width:992px) and (max-width:1279px){
+        .common{
+            padding: 1.25rem;
+            gap: 6.25rem;
+        }
+        
+        .h1-tag{
+            font-size: 2rem;
+            margin-left: 3rem;
+        }
+        
+        .image{
+            width: 17.5rem;
+            height: 8rem;
+        }
+        
+        .box{
+            width: 17.5rem;
+            height: 15.6rem;
+        }
+        
+        .h4-tag{
+            font-size: 1.125rem;
+            height: 3.5rem;
+        }
+        
+        .textt{
+            font-size: 0.9375rem;
+        }
+        
+        .common-2{
+            height: 40rem;
+            padding: 2rem;
+            padding-left: 5rem;
+        }
+        
+        .white-box{
+            width: 40rem;
+            height: 24rem;
+            line-height: 1.5rem;
+        }
+        
+        .profile{
+            width: 8rem;
+            height: 7.5rem; 
+        }
+        
+        .common-2h1{
+            font-size: 2.5rem;
+        }
+        
+        .p-name{
+            font-size: 1.5rem;
+        }
+    
+    }
+    
+    @media screen and (min-width:320px) and (max-width:420px){
+        .common{
+            padding: 1.25rem;
+            gap: 4rem;
+        }
+        
+        .h1-tag{
+            font-size: 1.75rem;
+            margin-left: 1rem;
+        }
+        
+        .image{
+            width: 14rem;
+            height: 7rem;
+        }
+        
+        .box{
+            width: 14rem;
+            height: 14rem;
+        }
+    
+        .h4-tag{
+            font-size: 1rem;
+            height: 2.5rem;
+        }
+        
+        .textt{
+            font-size: 0.9rem;
+        }
+        
+        .second-common{
+            display: flex;
+           flex-direction: column;
+        }
+    
+        .common-2{
+            height: 31rem;
+            padding: 2rem;
+            padding-left: 2rem;
+            gap: 2.5rem;
+        }
+        
+        .white-box{
+            width: 16rem;
+            height: 19rem;
+            padding: 2rem;
+            line-height: 0.8rem;
+            gap: 1rem;
+        }
+        
+        .large-text{
+            font-size: 0.8rem;
+        }
+        
+        .container{
+            gap: 1.5rem;
+        }
+        
+        .profile{
+            width: 4rem;
+            height: 3.8rem; 
+        }
+        
+        .facebook{
+            width: 0.9rem;
+            height: 0.9rem;
+        }
+        
+        .name-logo{
+            gap: 2rem;
+        }
+        
+        .common-2h1{
+            font-size: 1.625rem;
+        }
+        
+        .p-name{
+            font-size: 0.8rem;
+        }
+        
+    }
+    
+    @media screen and (min-width:421px) and (max-width:520px){
+        .common{
+            padding: 1.25rem;
+            gap: 4rem;
+        }
+        
+        .h1-tag{
+            font-size: 1.9rem;
+            margin-left: 1.5rem;
+        }
+        
+        .image{
+            width: 17rem;
+            height: 8rem;
+        }
+        
+        .box{
+            width: 17rem;
+            height: 16rem;
+        }
+        .h4-tag{
+            font-size: 1.4rem;
+            height: 3.4rem;
+        }
+        
+        .textt{
+            font-size: 0.9rem;
+        }
+    
+        .second-common{
+            display: flex;
+           flex-direction: column;
+        }
+    
+        .common-2{
+            height: 34rem;
+            padding: 2.5rem;
+            padding-left: 2.4rem;
+            gap: 3rem;
+        }
+        
+        .white-box{
+            width: 20rem;
+            height: 19rem;
+            padding: 2rem;
+            line-height: 1rem;
+            gap: 1.5rem;
+        }
+        
+        .large-text{
+            font-size: 0.8rem;
+        }
+        
+        .container{
+            gap: 1.5rem;
+        }
+        
+        .profile{
+            width: 5.2rem;
+            height: 4.6rem; 
+        }
+        
+        .facebook{
+            width: 1rem;
+            height: 1rem;
+        }
+        
+        .name-logo{
+            gap: 1rem;
+        }
+        
+        .common-2h1{
+            font-size: 1.9rem;
+        }
+        
+        .p-name{
+            font-size: 0.85rem;
+        }
+    }
+    
+    @media screen and (min-width:521px) and (max-width:620px){
+        .common{
+            padding: 1.25rem;
+            gap: 4rem;
+        }
+     
+        .h1-tag{
+            font-size: 2.3rem;
+            margin-left: 1.9rem;
+        }
+        
+        .image{
+            width: 23rem;
+            height: 9rem;
+        }
+        
+        .box{
+            width: 23rem;
+            height: 19rem;
+        }
+    
+        .h4-tag{
+            font-size: 1.8rem;
+            height: 4.5rem;
+        }
+        
+        .textt{
+            font-size: 1.2rem;
+        }
+        
+        .second-common{
+            display: flex;
+           flex-direction: column;
+          
+        }
+    
+        .common-2{
+            height: 36rem;
+            padding: 2.5rem;
+            padding-left: 2.7rem;
+            gap: 3.5rem;
+        }
+        
+        .white-box{
+            width: 25rem;
+            height: 20rem;
+            padding: 2rem;
+            line-height: 1.3rem;
+            gap: 1.6rem;
+        }
+        
+        .large-text{
+            font-size: 0.9rem;
+        }
+        
+        .container{
+            gap: 1.6rem;
+        }
+        
+        .profile{
+            width: 5.6rem;
+            height: 5rem; 
+        }
+        
+        .facebook{
+            width: 1.3rem;
+            height: 1.3rem;
+        }
+        
+        .name-logo{
+            gap: 1rem;
+        }
+        
+        .common-2h1{
+            font-size: 1.9rem;
+        }
+        
+        .p-name{
+            font-size: 1rem;
+        }
+    }
+    
+    @media screen and (min-width:621px) and (max-width:720px){
+        .common{
+            padding: 1.25rem;
+            gap: 4rem;
+        }
+        
+        .h1-tag{
+            font-size: 2.8rem;
+            margin-left: 2.1rem;
+        }
+        
+        .image{
+            width: 27rem;
+            height: 10rem;
+        }
+        
+        .box{
+            width: 27rem;
+            height: 22rem;
+        }
+    
+        .h4-tag{
+            font-size: 2rem;
+            height: 5rem;
+        }
+        
+        .textt{
+            font-size: 1.4rem;
+        }
+        
+        .second-common{
+            display: flex;
+           flex-direction: column;
+          
+        }
+        .common-2{
+            height: 34rem;
+            padding: 2.5rem;
+            padding-left: 2.5rem;
+            gap: 3rem;
+        }
+        
+        .white-box{
+            width: 29rem;
+            height: 20rem;
+            padding: 2rem;
+            line-height: 1.3rem;
+            gap: 1.5rem;
+        }
+        
+        .large-text{
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        
+        .container{
+            gap: 1.5rem;
+        }
+        
+        .profile{
+            width: 5.6rem;
+            height: 5rem; 
+        }
+        
+        .facebook{
+            width: 1.3rem;
+            height: 1.3rem;
+        }
+        
+        .name-logo{
+            gap: 1rem;
+        }
+        
+        .common-2h1{
+            font-size: 2.1rem;
+        }
+        
+        .p-name{
+            font-size: 1rem;
+        }
+    }
+    
+    @media screen and (min-width:721px) and (max-width:850px){
+        .common{
+            padding: 1.25rem;
+            gap: 4rem;
+        }
+    
+        .h1-tag{
+            font-size: 3rem;
+            margin-left: 2.5rem;
+        }
+        
+        .image{
+            width: 32rem;
+            height: 12rem;
+        }
+        
+        .box{
+            width: 32rem;
+            height: 25rem;
+        }
+    
+        .h4-tag{
+            font-size: 2.4rem;
+            height: 5.9rem;
+        }
+        
+        .textt{
+            font-size: 1.6rem;
+        }
+        
+        .second-common{
+            display: flex;
+           flex-direction: column;
+          
+        }
+    
+        .common-2{
+            height: 36rem;
+            padding: 2.5rem;
+            padding-left: 3.3rem;
+            gap: 3rem;
+        }
+        
+        .white-box{
+            width: 33rem;
+            height: 23rem;
+            padding: 2rem;
+            line-height: 1.5rem;
+            gap: 1.5rem;
+        }
+        
+        .large-text{
+            font-size: 1.2rem;
+        }
+        
+        .container{
+            gap: 1.5rem;
+        }
+        
+        .profile{
+            width: 6rem;
+            height: 5.4rem; 
+        }
+        
+        .facebook{
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+        
+        .name-logo{
+            gap: 1rem;
+        }
+        
+        .common-2h1{
+            font-size: 2.4rem;
+        }
+        
+        .p-name{
+            font-size: 1.3rem;
+        }
+    }
+    
+    @media screen and (min-width:851px) and (max-width:992px){
+        .common{
+            padding: 1.25rem;
+            gap: 4rem;
+        }
+    
+        .h1-tag{
+            font-size: 3.3rem;
+            margin-left: 3rem;
+        }
+        
+        .image{
+            width: 38rem;
+            height: 13rem;
+        }
+        
+        .box{
+            width: 38rem;
+            height: 28rem;
+        }
+    
+        .h4-tag{
+            font-size: 2.8rem;
+            height: 6.9rem;
+        }
+        
+        .textt{
+            font-size: 1.9rem;
+        }
+        
+        .second-common{
+            display: flex;
+           flex-direction: column;
+          
+        }
+        .common-2{
+            height: 36rem;
+            padding: 2.5rem;
+            padding-left: 3.3rem;
+            gap: 3rem;
+        }
+        
+        .white-box{
+            width: 37rem;
+            height: 25rem;
+            padding: 2rem;
+            line-height: 1.7rem;
+            gap: 1.8rem;
+        }
+        
+        .large-text{
+            font-size: 1.3rem;
+        }
+        
+        .container{
+            gap: 1.5rem;
+        }
+        
+        .profile{
+            width: 6.4rem;
+            height: 5.8rem; 
+        }
+        
+        .facebook{
+            width: 1.7rem;
+            height: 1.7rem;
+        }
+        
+        .name-logo{
+            gap: 1rem;
+        }
+        
+        .common-2h1{
+            font-size: 2.6rem;
+        }
+        
+        .p-name{
+            font-size: 1.5rem;
+        }
+    
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    }
+
+    .section{
+    background-color: #9DC9C8;
+    width: 100%;
+    height: 1000px;
+    padding-left: 80px;
+    padding-top: 5rem;
+    }
+    h1{
+    margin-top: 0rem;
+    font-size: 90px;
+    font-family: "Roboto Slab", serif;
+    }
+    .teq{
+    font-size: 40px;
+    font-weight: 400;
+    width: 10.625rem;
+    height: 2rem;
+    margin-top: 4.375rem;
+    }
+    .price{
+    font-weight: 400;
+    }
+    .information{
+    display: flex;
+    padding-top: 100px;
+    height: 15rem;
+    width: 100%;
+    }
+    .left{
+    height: 3.125rem;
+    font-weight: 400;
+    }
+    .contact_icon{
+    width: 3.75rem;
+    height: 3.75rem;
+    }
+    .text_header{
+    font-family: Roboto;
+    font-size: 35px;
+    font-weight: 400;
+    height: 1.5rem;
+    padding-bottom:2.5rem;
+    width: 430px;
+    }
+    .text, .text1{
+    padding-top: 10px;
+    width: 13rem;
+    font-size: 20px;
+    }
+    .footer{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 540px;
+    padding-left: 80px;
+    padding-top: 3.75rem;
+    justify-content: space-between;
+    }
+    .icon{
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-left: 0px ;
+    }
+    .right{
+    margin-left: 0px;
+    padding-left: 0px;
+    width: 0px;
+    }
+    .images{
+    padding-top: 0px;
+    display: flex;
+    gap:15px;
+    padding-bottom:200px;
+    margin-left: -14px;
+    height: 10px;
+    }
+    .course_info{
+    color:white;
+    font-size: 1.5rem;
+    height: 0px;
+    width: 100%;
+    }
+    .contact_user{
+    padding-right: 200px;
+    }
+    .course_contact{
+    color:white;
+    padding-left: 10px;
+    height: 1.25rem;
+    width: 100%;
+    font-size: 25px;
+    padding-top: 6px;
+    }
+    .phone, .gmail{
+    display: flex;
+    padding-top: 4px;
+    gap: 1.5rem;
+    }
+    .logo{
+        width: 150px;
+        height: 150px;
+    }
+@media screen and (min-width: 321px) and (max-width: 440px) {
+    .section{
+        padding-left: 30px;
+        height: 420px;
+        padding-top: 40px;
+    }
+    .header_title{
+        font-size: 32px;
+        width: 100%;
+    }
+    .price{
+        font-size: 34px;
+    }
+    .information{
+        padding-top: 50px;
+    }
+    .text, .text1{
+        font-size: 12px;
+        width: 130px;
+    }
+    .information{
+        padding-top: 40px;
+        height: 150px;
+        width: 100%;
+    }
+    .text_header{
+        width: 138px;
+        font-size: 15px;
+    }
+    .left{
+        padding-left: 0px;
+    }
+    .right{
+        padding-left:16px;
+    }
+    .logo{
+        width: 80px;
+        height: 80px;
+    }
+    .images{
+        padding-top: 0px;
+        padding-bottom: 40px;
+        margin-left: -14px;
+    }
+    .contact{
+        width: 200px;
+        height: 240px;
+    }
+    .contact_icon{
+        height: 30px;
+    }
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+    .footer{
+        padding:20px 0px 0px 30px;
+        height: 270px;
+        display: grid;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .course_info{
+        font-size: 16px;
+        padding-top: 100px;
+    }
+    .phone{
+        padding-bottom: 7px;
+    }
+    .contact_user{
+        margin-top: -120px;
+        height: 100px;
+        width: 250px;
+    }
+    .contact_data{
+        padding-top: 0px;
+    }
+    .course_contact{
+        font-size: 16px;
+        width: 200px;
+        padding-top: 0px;
+    }
+    .teq{
+        font-size: 20px;
+        padding-top: 20px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 441px) and (max-width: 500px) {
+    .section{
+        padding-left: 30px;
+        height: 500px;
+        padding-top: 40px;
+    }
+    .header_title{
+        font-size: 36px;
+        width: 100%;
+    }
+    .price{
+        font-size: 46px;
+    }
+    .information{
+        padding-top: 50px;
+    }
+    .information{
+        padding-top: 40px;
+        height: 150px;
+        width: 100%;
+    }
+    .text, .text1{
+        font-size: 12px;
+        width: 150px;
+    }
+    .text_header{
+        width: 180px;
+        font-size: 17px;
+    }
+    .left{
+        padding-left: 0px;
+    }
+    .logo{
+        width: 90px;
+        height: 90px;
+    }
+    .images{
+        padding-top: 0px;
+        padding-bottom: 90px;
+        margin-left: -14px;
+    }
+    .contact{
+        width: 200px;
+        height: 80px;
+    }
+    .icon{
+        width: 26px;
+        height: 26px;
+    }
+    .course_info{
+        font-size: 16px;
+        padding-top: 110px;
+    }
+    .phone{
+        padding-bottom: 7px;
+    }
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+    .phone{
+        padding-bottom: 7px;
+    }
+    .contact_user{
+        height: 20px;
+        margin-top: -20px;
+        width: 200px;
+        padding-bottom: 20px;
+    }
+    .footer{
+        padding:20px 0px 0px 30px;
+        height: 358px;
+        display: grid;
+        flex-direction: row;
+        justify-content: start;
+        }
+    .contact_data , .contact_icon{
+        padding-top: 0px;
+        height: 30px;
+    }
+    .course_contact{
+        font-size: 16px;
+        padding-top: 0px;
+        width: 300px;
+    }
+    .teq{
+        font-size: 30px;
+    }
+    .right{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    }
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+    .section{
+        padding-left: 30px;
+        height: 500px;
+        padding-top: 40px;
+    }
+    .header_title{
+        font-size: 38px;
+        width: 100%;
+    }
+    .price{
+        font-size: 48px;
+    }
+    .teq{
+        font-size: 25px;
+    }
+    .information{
+        padding-top: 40px;
+        height: 150px;
+    }
+    .text_header{
+        width: 180px;
+        font-size: 19px;
+    }
+    .left{
+        padding-right: 30px;
+    }
+    .logo{
+        width: 98px;
+        height: 98px;
+    }
+    .images{
+        padding-top: 0px;
+        padding-bottom:180px;
+        margin-left: -14px;
+    }
+    .contact{
+        width: 200px;
+        height: 240px;
+    }
+    .contact_icon{
+        height: 30px;
+    }
+    .footer{
+        padding:20px 0px 0px 30px;
+        height: 360px;
+        display: grid;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .icon{
+        width: 26px;
+        height: 26px;
+    }
+    .course_contact{
+        font-size: 18px;
+        width: 300px;
+    }
+    .course_info{
+        font-size: 18px;
+        padding-top: 0px;
+    }
+    .phone{
+        padding-bottom: 7px;
+    }
+    .contact_user{
+        margin-top: -110px;
+        width: 200px;
+    }
+    .text, .text1{
+        padding-top: 10px;
+        height: 5px;
+        width: 150px;
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 992px) {
+    .section{
+        padding-left: 30px;
+        height: 550px;
+        padding-top: 40px;
+    }
+    .header_title{
+        font-size: 46px;
+        width: 430px;
+    }
+    .price{
+        font-size: 50px;
+    }
+    .teq{
+        font-size: 30px;
+    }
+    .text, .text1{
+        font-size: 15px;
+    }
+    .information{
+        padding-top: 40px;
+        height: 150px;
+    }
+    .text_header{
+        width: 200px;
+        font-size: 20px;
+    }
+    .left{
+        padding-left: 0px;
+    }
+    .footer{
+        padding:20px 0px 0px 30px;
+        height: 400px;
+        display: grid;
+        flex-direction: row;
+        justify-content: start;
+    }
+    .logo{
+        width: 112px;
+        height: 112px;
+    }
+    .images{
+        padding-top: 0px;
+        padding-bottom:150px;
+        margin-left: -14px;
+    }
+    .contact{
+        width: 200px;
+        height: 240px;
+    }
+    .left{
+        width: 30%;
+    }
+    .contact_icon{
+        height: 30px;
+    }
+    .course_info{
+        font-size: 20px;
+        padding-top: 80px;
+        width: 600px;
+    }
+    .icon{
+        width: 30px;
+        height: 30px;
+    }
+    .course_contact{
+        font-size: 20px;
+    }
+    .phone{
+        padding-bottom: 7px;
+        padding-top: 20px;
+    }
+    .contact_user{
+        margin-top: -120px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .section{
+        padding-left: 60px;
+        height: 41rem;
+        padding-top: 80px;
+    }
+    .header_title{
+        font-size: 3rem;
+    }
+   
+    .bold1{
+        width: 400px;;
+    }
+    .price{
+        font-size: 60px;
+    }
+    .teq{
+        font-size: 1.5rem;
+    }
+    .text, .text1{
+        padding-top: 10px;
+        height: 5px;
+        width: 200px;
+        font-size: 1rem;
+    }
+    .information{
+        padding-top: 40px;
+        height: 150px;
+        width: 70%;
+    }
+    .text_header{
+        width: 450px;
+        font-size: 1.5rem;
+    }
+    .left{
+        padding-left: 0px;
+    }
+    .footer{
+        padding:20px 0px 0px 30px;
+        height: 430px;
+        display:flex;
+        justify-content: space-between;
+    }
+    .logo{
+        width: 130px;
+        height: 122px;
+    }
+    .images{
+        padding-top: 0px;
+        padding-bottom:200px;
+        margin-left: -14px;
+    }
+    .contact{
+        width: 200px;
+        height: 240px;
+        padding-left: 3rem;
+    }
+    .contact_user{
+        width: 400px;
+        height: 400px;
+        padding-right: 0px;
+        padding-top: 16px;
+    }
+    .contact_icon{
+        height: 30px;
+    }
+    .icon{
+        width: 35px;
+        height: 35px;
+    }
+    .course_contact{
+        font-size: 22px;
+        width: 300px;
+        padding-top: 5px;
+    }
+    .course_info{
+        font-size: 1.3rem;
+        padding-top: 0px;
+        width: 300px;
+    }
+    .phone{
+        padding-bottom: 15px;
+    }    
+    .left{
+        width: 50%;
+    }
+}
